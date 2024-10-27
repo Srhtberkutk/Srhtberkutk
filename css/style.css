@@ -1,0 +1,256 @@
+body {
+    background-color: #B5A18CC2;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;   
+}
+figcaption{
+    position: absolute;
+}
+
+header {
+    background-color: #DBBFA2;
+    color: black;
+    padding: 10px 0;
+}
+header img{
+    width: 70px;
+    height: 70px;  
+}
+
+nav ul, aside ul {
+    font-size: 20px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+nav ul li, aside ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a, aside ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.imp{
+    
+    text-align: left;
+    line-height: 3em;
+}
+
+
+p {
+    font-size: 30px;
+    text-indent: 1em;
+    word-spacing: 0.5px;
+    text-align: center; 
+
+}
+.Study, .Study2, .Study3, .Study4, .GroupRooms, .GroupRooms2, .BookClub, .BookClubSection3, .E-BooksSection1, .E-BooksSection2, .E-BooksSection3{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.board{
+    float: inline-start;
+}
+.BookClubSection2{
+    display:grid;
+    justify-content: space-around;
+}
+.BookClubSection2 p{
+    text-align: center;
+    color: #fff;
+}
+article p{
+    padding: 20px;
+}
+.StudySpaces, .Clubs{   
+    max-width: 500px;
+    font-size: 20px;
+}
+.ebook{
+    text-align: left;
+    max-width: 700px;
+}
+.Clubs{
+    font-size: 30px;
+    text-align: left;
+}
+.E-Books{
+    font-size: 35px;
+    text-align: left;
+    text-indent: 10rem;
+}
+.Study2 p, .E-BooksSection2 p{
+    color: #fff;
+}
+.Study3 p{
+    font-size: 40px;
+    position: relative;
+}
+
+.GroupR{
+    font-size: 40px;
+    max-width: 500px;
+    font-size: 20px;
+}
+
+
+figure{
+    display: flex;
+    justify-content: space-around;
+}
+section h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+}
+
+img{
+    max-width: 600px;
+}
+nav ul li a:hover, aside ul li a:hover {
+    text-transform: uppercase;
+    text-decoration:underline;
+}
+nav ul li a:active, aside ul li a:active {
+    text-transform: uppercase;
+    text-decoration:underline;
+    color: black;
+}
+
+footer {
+    background-color: #494040;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    border-width: 1855px;
+    max-width: 100%; 
+    padding: 20px;
+    border: 3px solid;
+    border-color: #000000; 
+    border-style: outset;
+    background-color: #B5A18CC2; 
+    color: #333;
+    border-radius: 8px; 
+}
+section {
+    padding: 50px;
+    line-height: 3em;
+    align-content: space-around;
+
+}
+article h1{
+    font-size: 70px;
+    text-align: center;
+    margin: 10px 0;
+    letter-spacing: 0.5px;
+}
+h1, h2, p {
+    margin: 10px 0;
+    letter-spacing: 0.5px;
+    line-height: 2em;
+}
+form{
+    font-size: 25px;
+
+}
+legend{
+    text-align: center;
+}
+input[type="text"], input[type="number"], input[type="email"] {
+    width: 500px;
+    height: 40px;
+    padding: 10px; 
+    font-size: 16px;
+}
+input[type="subject"]{
+    width: 900px;
+    height: 400px;
+    padding: 10px; 
+    font-size: 16px;
+}
+input[type="submit"]{
+    width: 1500px;
+    height: 80px;
+    padding: 10px; 
+    font-size: 16px;
+}
+/* Coloring even and odd rows in input*/
+input:nth-child(even) {
+    background-color: #CFF;/*for even*/
+}
+
+input:nth-child(odd) {
+    background-color: #FFF;/*for odd*/
+}
+
+.Contact p strong:first-letter {
+    font-size: 2em;
+    color: #007BFF; 
+}
+
+
+header > aside > ul > li > a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header > aside > ul > li > a:hover {
+    color: #007BFF; 
+}
+.cookies-message {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    z-index: 9999; /* Moves cookies message to the top layer */
+}
+
+.cookies-message button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cookies-message button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Responsive Design*/
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+      /* Adjust other styles to fit mobile layout */
+    }
+  }
+  
+  /* Styles for screens wider than 768px (PC) */
+  @media (min-width: 769px) {
+    body {
+      font-size: 16px;
+      /* Add styles specific to PC layout */
+    }
+  }

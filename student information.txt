@@ -1,0 +1,5 @@
+Student name: Serhat Berk Utku
+Student number: 738352
+Student class: 1E
+GitHub Repository: your github repository URL
+GitHub Pages URL: your github pages URL
